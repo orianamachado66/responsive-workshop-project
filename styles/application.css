@@ -3,6 +3,7 @@
   --secondary-font: "Poppins", sans-serif;
   --primary-background-color: #d7dae9;
   --accent-color: #f5ad51;
+  --base-color: #fffff0;
 }
 
 h1 {
@@ -15,6 +16,12 @@ h2 {
   font-family: var(--secondary-font);
   font-size: 24px;
   font-weight: normal;
+}
+
+p {
+  font-size: 18px;
+  font-family: var(--secondary-font);
+  line-height: 1.5;
 }
 
 .hero {
@@ -32,11 +39,62 @@ h2 {
 }
 .btn-branding {
   background: var(--accent-color);
-  color: white;
+  color: var(--base-color);
+  border-radius: 4px;
+  margin-top: 100px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 27px;
+  padding: 20px 15px;
+}
+
+.btn-branding:hover {
+  color: var(--accent-color);
+}
+.article-description {
+  padding: 100px 60px;
+}
+.travel-title {
+  font-size: 64px;
+  font-family: var(--primary-font);
+  color: var(--accent-color);
+}
+
+.btn-branding-outline {
+  background: var(--base-color);
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
   border-radius: 4px;
   margin-top: 40px;
   font-size: 18px;
   font-weight: normal;
   line-height: 27px;
   padding: 10px 15px;
+}
+
+.btn-branding-outline:hover {
+  background: var(--accent-color);
+  color: var(--base-color);
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .hero {
+    padding: 80px 15px;
+  }
+  .hero p {
+    font-size: 25px;
+  }
+  .travel-title {
+    font-size: 40px;
+  }
+  .article-description {
+    padding: 0;
+    text-align: center;
+  }
 }
