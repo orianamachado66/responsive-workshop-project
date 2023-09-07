@@ -24,6 +24,18 @@ p {
   line-height: 1.5;
 }
 
+footer {
+  background: var(--primary-background-color);
+
+  text-align: center;
+  padding: 60px 30px;
+}
+.contact-title {
+  font-family: var(--secondary-font);
+  color: var(--accent-color);
+  font-size: 40px;
+  font-weight: bold;
+}
 .hero {
   padding: 160px 20px;
   background: var(--primary-background-color);
@@ -73,6 +85,25 @@ p {
 }
 
 .btn-branding-outline:hover {
+  background: var(--accent-color);
+  color: var(--base-color);
+}
+
+.arrow {
+  font-size: 40px;
+}
+
+.btn-branding-contact {
+  color: var(--accent-color);
+  border: solid 0.5px var(--accent-color);
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 27px;
+  padding: 20px 15px;
+}
+
+.btn-branding-contact:hover {
   background: var(--accent-color);
   color: var(--base-color);
 }
