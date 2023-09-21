@@ -106,10 +106,10 @@ nav {
 }
 
 .btn-branding-contact {
-  color: var(--accent-color);
   border: solid 0.5px var(--accent-color);
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 15px;
+  font-family: var(--secondary-font);
   font-weight: normal;
   line-height: 27px;
   padding: 20px 15px;
@@ -157,6 +157,28 @@ nav {
   max-width: 100%;
   border-radius: 50%;
 }
+.contact-box {
+  padding: 20px;
+  background: var(--primary-background-color);
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.contact-box a {
+  text-decoration: none;
+  color: black;
+  transition: all 150ms ease-in-out;
+}
+
+.contact-box a:hover {
+  color: var(--accent-color);
+}
+
+footer .social-media-icons a {
+  margin: 60px 50px;
+  font-size: 18px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 45px;
