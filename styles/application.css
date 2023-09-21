@@ -49,7 +49,7 @@ nav {
   font-weight: bold;
 }
 .hero {
-  padding: 160px 20px;
+  padding: 60px 20px;
   background: var(--primary-background-color);
 
   text-align: center;
@@ -121,7 +121,7 @@ nav {
 }
 
 .content-container {
-  padding: 50px 20px;
+  padding: 20px 20px;
 }
 
 .content-container h1 {
@@ -162,6 +162,9 @@ nav {
   background: var(--primary-background-color);
   text-align: center;
   margin-bottom: 100px;
+}
+.contact-me {
+  font-size: 64px;
 }
 
 .contact-box a {
@@ -208,6 +211,9 @@ footer .social-media-icons a {
     margin: 5px;
   }
   .content-container h1 {
+    font-size: 45px;
+  }
+  .contact-me {
     font-size: 45px;
   }
 }
