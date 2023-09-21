@@ -30,6 +30,18 @@ footer {
   text-align: center;
   padding: 60px 30px;
 }
+
+nav {
+  background-color: #fffff0 !important;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+.active {
+  color: var(--accent-color) !important;
+}
 .contact-title {
   font-family: var(--secondary-font);
   color: var(--accent-color);
@@ -139,6 +151,11 @@ footer {
 
 .content {
   margin: 30px;
+}
+
+.logo {
+  max-width: 100%;
+  border-radius: 50%;
 }
 @media (max-width: 900px) {
   h1 {
